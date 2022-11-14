@@ -17,6 +17,7 @@ void leerMatriz (int**M, int filas, int columnas){
     for (int i=0; i<filas; i++){
         for (int j=0; j<columnas; j++){
         cout<< "Matriz[" << i << "][" << j << "]: ";
+
         cin>> M[i][j];
         }
     }
@@ -200,4 +201,6 @@ int main() {
         }
  
     }while( opcion != 3 );
+
+    system("pause");
 }
