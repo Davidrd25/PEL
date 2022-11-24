@@ -43,7 +43,7 @@ template<typename T> class VectorPEL
                     size_t cap = capacity(), new_cap = (cap == 0)?  2 : 2*cap; 
 
 
-                   T *new_block = new T[new_cap]; /
+                   T *new_block = new T[new_cap]; 
 
                     try {
                         for (auto i = size_t{0}; i < cap; ++i) {
