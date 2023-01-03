@@ -1,4 +1,3 @@
-// Created: 2019-10-16 11:10:00
 #include <iostream>
 using namespace std;
 
@@ -27,5 +26,4 @@ cout.precision(2);
 cout<<"El resulado obtenido es: "<<resultado<<endl;
 
 return 0;
-
 }
