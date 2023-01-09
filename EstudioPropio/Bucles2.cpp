@@ -1,8 +1,6 @@
 /*
-Un programa que lea de entrada estandar numeros hasta que 
-se introduzca un 0. En ese momento el programa debe terminar
-y mostrar en pantalla el numero de valores mayores
-que cero leidos
+Un programa que lea de entrada estandar numeros hasta que se introduzca un 0. En ese momento el programa debe terminar
+y mostrar en pantalla el numero de valores mayores que cero leidos
 */
 
 #include <iostream>
@@ -21,5 +19,5 @@ do{
     }
     }while(numero!=0);  
         cout << "Ha introducido " << contador << " numeros mayores que cero" << endl;
-        
+
 }

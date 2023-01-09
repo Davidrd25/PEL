@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int n;
+	int matriz[n][n];
+
+	cout<<"Introduzca la dimension que tendra su matriz: ";
+	cin>>n;
+    
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            cout<<"Introduzca el valor de la posicion "<<i<<","<<j<<": ";
+            cin>>matriz[i][j];
+        }
+    }
+	
+	for(int i=0; i<n; i++){
+		for(int j=0; j<n; j++){
+			cout<<matriz[i][j];
+		}
+		cout<<endl;
+	}
+
+	return 0;
+}
